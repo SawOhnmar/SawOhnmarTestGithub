@@ -1,0 +1,93 @@
+.content{
+    float: left;
+    position: sticky;
+    background: #ffffff;
+    top: 50px;
+    padding: 3px 0px 0px 20px;
+    width : 300px;
+    height : 450px;
+    border-radius: 7px;
+    box-shadow:  0px 0px 3px 3px #f0ecec;          
+    line-height: 1.8;
+  }
+  nav {
+    background-color: rgb(248, 16, 16);
+    position: fixed;
+    top: 0;
+    margin-left: -8px;
+    width: 100%;
+    height: 45px;
+  }
+
+  nav a {
+  float: left;
+  display: block;
+  color: #fffdfd;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  
+  }
+
+  .content a:hover{
+    color:red;
+  }
+
+  .detail a:hover{
+    color: red;
+  }
+  
+  header {
+    padding: 10px;
+    background-color: #ffffff;
+    height: 179px;
+    border-radius: 7px;
+    box-shadow:  0px 0px 3px 3px #f0ecec;
+  }
+  header p{
+    margin-top: -9px;
+  }
+  
+  body{
+      background-color: #f1f1f1;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+  }
+  article{
+    margin: 55px 170px;
+  }
+
+  .content a {
+      color:black;
+      display: block;
+      text-decoration: none;
+    }
+
+    .detail{
+      background: #ffffff;
+      margin-left: 10px;
+      padding: 10px 20px 20px 20px;
+      width : 620px;
+      height : auto;
+      border-radius: 7px;
+      box-shadow:  0px 5px 3px 20px #f0ecec;
+    }
+    .detail a{
+      text-decoration: none;
+      color:black;
+    }
+
+    .upPage{
+      position: fixed;
+      position:fixed;
+      bottom: 50px;
+      right: 20px;
+    }
+
+    .Questions{
+      width: 500px; 
+      height: auto;
+      border-radius: 5px;
+      border: solid 3px #f0ecec;
+      margin-left: 10px;
+    }
